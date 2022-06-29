@@ -1,0 +1,139 @@
+body{
+  max-width: 1130px;
+  max-height: 2700px;
+  padding: 2%;
+  scroll-padding-top: 100px;
+}
+header{
+  width: 100%;
+  margin: 0%;
+
+}
+#div-header header ul {
+  width: 100%;
+  margin:0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #d7a942;
+  height: 100px;
+
+}
+
+#div-header header img {
+  height: 100px;
+  width: 200px;
+}
+
+#div-header header ul li h1 {
+  font-family: cursive;
+  color: #d7a942;
+  font-size: 40px;
+  color: black;
+  background-color: #d7a942;
+
+}
+
+img {
+  width: 250px;
+  height: 300px;
+}
+
+span {
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+/*---------------------------NAV----------------*/
+#nav-container {
+  width: 100%;
+  display: block;
+
+}
+
+#index-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #d7a942;
+}
+
+#index-menu ul {
+  display: contents;
+}
+
+#index-menu li {
+  position: relative;
+}
+
+#index-menu li a {
+  color: black;
+  display: block;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+#index-menu li a:hover {
+  color: violet;
+  border-bottom: 1px solid #706161;
+  border-top: 1px solid #706161;
+}
+/*-------------------------Footer--------------*/
+footer {
+  background-color: #d7a942;
+  height: 100px;
+}
+
+.div-footer1 {
+  width: 700px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  float: left;
+}
+
+.div-footer1 a {
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: cursive;
+}
+
+.div-footer1 a:hover {
+  color: violet;
+}
+
+.div-footer2 {
+  font-family: cursive;
+}
+
+.div-footer2 ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.div-footer2 ul li {
+  font-size: 70%;
+}
+
+.div-footer2 ul li i {
+  font-size: 18px;
+  padding: 6px 5px;
+}
+
